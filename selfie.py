@@ -47,7 +47,7 @@ def setinit(setf):
     for i in range (len(setf)):
         org_func += f"{setf[i]}"
         org_func += "(self):\n"
-        org_func += f"\treturn self.__{setf[i]}\n"
+        org_func += f"\tself.__{setf[i]} = new_{setf[i]}\n"
         list_of_set.append(org_func)
         org_func = "def set"
     for elements in list_of_set:
