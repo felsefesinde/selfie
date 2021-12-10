@@ -3,3 +3,4 @@ I realized that many Onject-Oriented Programmers lose a lot of time while creati
 While using the app, the variables should be seperated by commas like shown: (", ")
 You can also check the selfiesr.py file which is a sample run of the codes to train the application.
 I hope you enjoy using this app and make things easier in Object-Oriented Programming :)
+You can use selfie(args, priv), getinit(get), setinit(setf) functions by adding "from selfie import *" code at the beginning of your script.
