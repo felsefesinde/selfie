@@ -29,3 +29,5 @@ print(getinit(get))
 setf = input("Pleae enter the arguements that you want to set [seperated by commas]: ")
 #THERE SHOULD NOT BE A PARANTHESIS AT THE END OF THE INPUT. ONLY THE ATTRIBUTES SHOULD BE ENTERED LIKE: name, surname, city, country
 print(setinit(setf))
+
+input("Press Enter to Exit the App...")
